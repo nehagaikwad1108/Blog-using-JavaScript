@@ -1,0 +1,23 @@
+{
+  "name": "assignment5",
+  "version": "1.0.0",
+  "description": "Assignment5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "compile-sass": "node-sass sass/main.scss dist/main.css"
+  },
+  "keywords": [
+    "JSON"
+  ],
+  "author": "Ankush Deora & Krish Jain",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "serve-static": "^1.13.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.7"
+  }
+}
